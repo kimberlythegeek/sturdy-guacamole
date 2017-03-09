@@ -1,0 +1,57 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:
+ Description:  Twenty Seventeen Child Theme
+ Author:       Kimberly Pennington
+ Author URI:   http://kimberly.codes
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:
+ Text Domain:  twenty-seventeen-child
+*/
+body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a,
+body.has-header-image .site-description, body.has-header-video .site-description {
+  color:#352d18;
+  opacity: 1;
+}
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+  font-size: 1.625rem;
+}
+.site-branding-text {
+  font-family: 'Alegreya SC', serif;
+}
+.post-57 h1, .post-54 h1 {
+    font-family: 'Alegreya SC';
+}
+body {
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+}
+.site-title {
+  font-size: 3rem;
+}
+.site-description {
+  font-size: 24px;
+}
+.navigation-top, .site-footer {
+  font-size: 19px;
+}
+h2.widget-title{
+  font-size: 16px;
+}
+#post-53 {text-align:center;}
+#post-53 .entry-header,
+.post-57 .entry-header,
+.post-54 .entry-header {
+  display: none;
+}
+body.page-two-column:not(.archive) #primary #post-53 .entry-content,
+body.page-two-column:not(.archive) #primary .post-57 .entry-content,
+body.page-two-column:not(.archive) #primary .post-54 .entry-content {
+  width:100%;
+}
+.post-57 ul {list-style: none;}
+.post-57 h1 {text-align: center;}
+.post-57 .services {margin-bottom:4rem;}
